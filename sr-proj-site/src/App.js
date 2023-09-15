@@ -11,14 +11,14 @@ function App() {
             <Router>
                 <div className="nav-bar">
                     <div className="nav-bar-option">
-                        <Link to="/">Home</Link>
+                        <Link to="/Sr.-Project-Team-Website">Home</Link>
                     </div>
                     <div className="nav-bar-option">
                         <Link to="/four-ups">4-Ups</Link>
                     </div>
                 </div>
                 <Routes>
-                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/Sr.-Project-Team-Website" element={<Home />} />
                     <Route path="/four-ups" element={<FourUps />} />
                 </Routes>
             </Router>

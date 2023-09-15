@@ -2,7 +2,7 @@
   "name": "sr-proj-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jmw3638.github.io/",
+  "homepage": "http://jmw3638.github.io/Sr.-Project-Team-Website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
