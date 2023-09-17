@@ -17,10 +17,16 @@ function App() {
                         <Link to="/four-ups">4-Ups</Link>
                     </div>
                 </div>
-                <Routes>
-                    <Route exact path="/Sr.-Project-Team-Website" element={<Home />} />
-                    <Route path="/four-ups" element={<FourUps />} />
-                </Routes>
+                <div className="content">
+                    <Routes>
+                        <Route
+                            exact
+                            path="/Sr.-Project-Team-Website"
+                            element={<Home />}
+                        />
+                        <Route path="/four-ups" element={<FourUps />} />
+                    </Routes>
+                </div>
             </Router>
         </div>
     );
