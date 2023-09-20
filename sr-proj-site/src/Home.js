@@ -56,8 +56,8 @@ function Home() {
                     this project include finding and fixing server connectivity
                     issues, designing and implementing a data visualization
                     subsystem which renders hundreds of data points to the
-                    Android app in a reasonable time,adding a feature to
-                    diagnose 5G network health to the app, and updating the
+                    Android app in a reasonable time, adding a feature to
+                    measure 5G network speed with the app, and updating the
                     infrastructure to be scalable to the amount of traffic
                     expected in the future.
                 </p>
