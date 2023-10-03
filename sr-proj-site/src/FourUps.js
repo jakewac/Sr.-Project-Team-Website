@@ -6,7 +6,7 @@ function FourUps() {
 
     return (
         <div className="four-ups">
-            <iframe id="doc" src={documentURL} />
+            <iframe title="4-Ups" id="doc" src={documentURL} />
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 
 import FourUps from "./FourUps";
+import TimeTracking from "./TimeTracking";
 import Home from "./Home";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -16,6 +17,9 @@ function App() {
                     <div className="nav-bar-option">
                         <Link to="/four-ups">4-Ups</Link>
                     </div>
+                    <div className="nav-bar-option">
+                        <Link to="/time">Time Tracking</Link>
+                    </div>
                 </div>
                 <div className="content">
                     <Routes>
@@ -25,6 +29,7 @@ function App() {
                             element={<Home />}
                         />
                         <Route path="/four-ups" element={<FourUps />} />
+                        <Route path="/time" element={<TimeTracking />} />
                     </Routes>
                 </div>
             </Router>
