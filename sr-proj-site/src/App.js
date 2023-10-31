@@ -3,6 +3,7 @@ import "./App.css";
 import FourUps from "./FourUps";
 import TimeTracking from "./TimeTracking";
 import Home from "./Home";
+import Requirements from "./Requirements";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -18,6 +19,9 @@ function App() {
                         <Link to="/four-ups">4-Ups</Link>
                     </div>
                     <div className="nav-bar-option">
+                        <Link to="/requirements">Requirements</Link>
+                    </div>
+                    <div className="nav-bar-option">
                         <Link to="/time">Time Tracking</Link>
                     </div>
                 </div>
@@ -29,6 +33,7 @@ function App() {
                             element={<Home />}
                         />
                         <Route path="/four-ups" element={<FourUps />} />
+                        <Route path="/requirements" element={<Requirements />} />
                         <Route path="/time" element={<TimeTracking />} />
                     </Routes>
                 </div>
